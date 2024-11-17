@@ -1,0 +1,31 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <ExpandableListView
+        android:id="@+id/expandableListView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:dividerHeight="2dp"
+        android:groupIndicator="?android:attr/expandableListPreferredGroupIndicator" />
+</LinearLayout>
+<TextView
+xmlns:android="http://schemas.android.com/apk/res/android"
+android:id="@+id/listGroup"
+android:layout_width="match_parent"
+android:layout_height="wrap_content"
+android:padding="10dp"
+android:textColor="black"
+android:textSize="18sp"
+android:background="#D3D3D3" />
+<TextView
+
+xmlns:android="http://schemas.android.com/apk/res/android"
+android:id="@+id/listItem"
+android:layout_width="match_parent"
+android:layout_height="wrap_content"
+android:padding="10dp"
+android:textColor="#555"
+android:textSize="16sp" />
